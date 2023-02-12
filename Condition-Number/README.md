@@ -44,7 +44,7 @@ For example, $A \in \mathbb{R}^{m \times n}$ transforms a vector $x \in \mathbb{
 
 In order to visualise, imagine a matrix $A \in \mathbb{R}^{2 \times 2}$ in 2D plane (our original subspace), which takes a vector $x$ and transforms it into $y$ with both $x, y \in \mathbb{R}^{2}$
 
-Now, for $Ax = y$, when our matrix $A$ is singular, it squishies the entire subspace of 2D X-Y plane (remember matrix transforms entire subspace of which $x$ is just one vector) into a 1-D straight line. Generalizing this, we have for higher $d$ dimensions, a singular matrix transforms it into a $d-1, d-2, ... $ or $0$ (a single point) dimension(s) which is called $Rank(A)$.  That is, transformation causes loss of $\ge1$ dimensions, which makes the transformation a one-way operator. For example, $f(x, y, z) = (2x, 0, z)$ (represented by $(2, 0, 1)$) is one way in that, we can go from left to right but not from right to left.
+Now, for $Ax = y$, when our matrix $A$ is singular, it squishies the entire subspace of 2D X-Y plane (remember matrix transforms entire subspace of which $x$ is just one vector) into a 1-D straight line. Generalizing this, we have for higher $d$ dimensions, a singular matrix transforms it into a $d-1, d-2, ...$ or $0$ (a single point) dimension(s) which is called $Rank(A)$.  That is, transformation causes loss of $\ge1$ dimensions, which makes the transformation a one-way operator. For example, $f(x, y, z) = (2x, 0, z)$ (represented by $(2, 0, 1)$) is one way in that, we can go from left to right but not from right to left.
 
 ## Let us layout how to compute condition number
 
