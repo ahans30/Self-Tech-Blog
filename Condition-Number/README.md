@@ -52,7 +52,7 @@ Now, for $Ax = y$, when our matrix $A$ is singular, it squishies the entire subs
 
 Recall that singular matrices can be defined as those with when one or more of eigenvalues are zeros.
 
-Finally, condition number $cn$ for any matrix $A$ with eigenvalues $\lambda_{i}$ is given by $\frac {|\lambda|_{max}} {|\lambda|_{min}}$. 
+Finally, condition number $cn$ for any matrix $A$ with eigenvalues $\lambda_{i}$ is given by $$\frac {|\lambda|_{max}} {|\lambda|_{min}}$$.
 
 We observe that for singular matrix, the condition number shoots to $\infty$ since $min |\lambda|$ is $0$. 
 
@@ -148,3 +148,5 @@ import numpy.linalg as LA
 A = np.array([[1, 2], [2, 3.999]])
 condition_number = LA.cond(A)
 ```
+More Reading
+- [Tikhonov Regularization](https://www.statisticshowto.com/well-posed-ill/)
