@@ -77,16 +77,16 @@ Now remember how going from right-to-left is impossible for singular matrices. W
 
 _The numpy code for this is this [notebook](code.ipynb)._
 
+
 $$
 A = \begin{bmatrix}
 1 & 2\\
 2 & 3.99\\
-\end{bmatrix},
-
+\end{bmatrix}
 x = \begin{pmatrix}
 x_{1} \\
 x_{2}
-\end{pmatrix},
+\end{pmatrix}
 b = \begin{pmatrix}
 4 \\
 7.999
