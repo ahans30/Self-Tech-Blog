@@ -70,7 +70,7 @@ Now remember how going from right-to-left is impossible for singular matrices. W
 
 > A vanilla linear system is defined as $Ax = b$ with solution as $x = A^{-1}b$
 
-**In near-singularity matrix transformatiom, we have images (i.e. transformations) of $x$ and $y$ vectors very close to each other irrespective of how close they were in the original space. So, when we take a inverse of the matrix transformation, a small $\eta$ amount of noise can abruply change the preimage computation or inverse of matrix for solution of system.**
+**In near-singularity matrix transformatiom, we have images (i.e. transformations) of $x$ and $y$ vectors very close to each other (i.e. densely packed) with little regard of how close they were in the original space (as preimage that is). So, when we take a inverse of the matrix transformation, a small $\eta$ amount of noise can abruply change the preimage computation or inverse of matrix for solution of system. This makes our system brittle and highly susceptible to be driven by noise than underlying data.**
 
 
 ## Let's see an example!
