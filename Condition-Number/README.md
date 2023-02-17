@@ -1,4 +1,4 @@
-# What is Condition Number in Machine Learning?
+# What is Condition Number and ill Conditioned Problem?
 
 <!-- $$X = \begin{pmatrix}
 1 & x_{1}\\
@@ -8,9 +8,7 @@
 
 ## Introduction
 
-> _On the title being bit of a clickbait_
-
-Well, technically the condition number is a thing of any system of equations. In this post, we focus on linear system of equations that are typically represented by matrices and vectors to benefit from numerical linear algebra and its methods.
+Well, the condition number is a thing of any system of equations. In this post, we focus on linear system of equations that are typically represented by matrices and vectors to benefit from numerical linear algebra and its methods.
 
 
 ## Okay, let's remember matrices first
